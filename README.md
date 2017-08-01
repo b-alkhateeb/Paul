@@ -1,50 +1,17 @@
-# Escoria
+Paul is a Point and Click Adventure that aims to support intercultural exchange between Palestine and Germany. 
+Its development started in the context of the yallah exchange program.
+The main goal is to introduce Palestinians to famous german personalities and thier best works.
+Paul is completely open source and is developed with the open source godot engine
+and using the  point-and-click adventure game framework escoria.
 
-Libre framework for the creation of point-and-click adventure games with
-the MIT-licensed multi-platform game engine [Godot Engine](https://godotengine.org).
+If you liked this game, be sure to check the Palestinian part of the game Amal: https://github.com/MartiniMoe/Amal
 
-*Escoria* consists of a set of scripts, template scenes and a dialogue
-scripting language, which are all meant to be used within Godot Engine.
+Godot Engine Webpage: https://godotengine.org/
+Escoria Github Page: https://github.com/godotengine/escoria
 
-It takes advantage of the Godot features and editor, and is meant to be
-usable by a team to make a game with little intervention from programmers.
-It is designed so that you can claim it for yourself and modify it to match
-the needs of your specific game and team.
+Game Developers:
 
-## History
-
-This framework was initially developed for the adventure game
-[The Interactive Adventures of Dog Mendonça and Pizzaboy®](http://store.steampowered.com/app/330420)
-and later streamlined for broader usages and open sourced as promised
-to the backers of the Dog Mendonça Kickstarter campaign.
-
-## Usage
-
-Here be dragons.
-
-## Documentation
-
-This repository contains some basic documentation in the `doc` folder.
-
-An extensive manual named [*Creating Point and Click Games with Escoria*](https://fr.flossmanuals.net/creating-point-and-click-games-with-escoria/)
-was written during a booksprint by Ariel Manzur (@punto-), main developer of this framework,
-and the [FLOSS Manuals francophone](https://fr.flossmanuals.net/) community.
-
-## Demo
-
-The great demo that goes with the FLOSS Manuals francophone manual linked above,
-"Escoria in Daïza", is also [hosted on GitHub](https://github.com/flossmanualsfr/escoria).
-It is released under the MIT license, and can thus be used as a way to kickstart
-your experience with Escoria.
-
-## Licensing
-
-This framework (scripts, scenes) is distributed under the MIT license,
-as described in the LICENSE.md file.
-
-### Art credits
-
-- [Dan Griffin-Hayes](dangriffinhayes.com) - Cartoon characters and objects vector pack,
-License CC0, [distributed on OpenGameArt](http://opengameart.org/content/cartoon-characters-and-objects-vector-pack)
-- [Clint Bellanger](clintbellanger.net) - Recycle items set, License CC BY 3.0,
-[distributed on OpenGameArt](http://opengameart.org/content/recycle-items-set)
+Moritz Martini
+Jasmin Kir
+Basil Al-Khateeb
+Ramsis Kilani
