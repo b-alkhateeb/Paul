@@ -1,0 +1,74 @@
+[gd_scene load_steps=8 format=1]
+
+[ext_resource path="res://globals/player.gd" type="Script" id=1]
+[ext_resource path="res://scenes/Bismark/player_anims.gd" type="Script" id=2]
+[ext_resource path="res://scenes/player/paul_body.png" type="Texture" id=3]
+[ext_resource path="res://scenes/player/paul_lf.png" type="Texture" id=4]
+[ext_resource path="res://scenes/player/paul_rf.png" type="Texture" id=5]
+
+[sub_resource type="Animation" id=1]
+
+resource/name = "idle"
+length = 1.0
+loop = false
+step = 0.1
+
+[sub_resource type="Animation" id=2]
+
+length = 2.0
+loop = false
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("lfoot:transform/pos")
+tracks/0/interp = 1
+tracks/0/imported = false
+tracks/0/keys = { "times":FloatArray( 0, 0.5, 1, 1.5 ), "transitions":FloatArray( 1, 1, 1, 1 ), "update":0, "values":[ Vector2( -21.8281, 15.2621 ), Vector2( -21.8281, 9.26206 ), Vector2( -21.8281, 16.2621 ), Vector2( -21.8281, 16.2621 ) ] }
+tracks/1/type = "value"
+tracks/1/path = NodePath("rfoot:transform/pos")
+tracks/1/interp = 1
+tracks/1/imported = false
+tracks/1/keys = { "times":FloatArray( 0, 0.5, 1, 1.5 ), "transitions":FloatArray( 1, 1, 1, 1 ), "update":0, "values":[ Vector2( 18.6362, 12.7621 ), Vector2( 18.6362, 12.7621 ), Vector2( 18.6362, 5.76208 ), Vector2( 18.6362, 13.7621 ) ] }
+
+[node name="player" type="Node2D"]
+
+transform/pos = Vector2( -1.50101, 0 )
+transform/scale = Vector2( 1.04691, 1 )
+script/script = ExtResource( 1 )
+speed = 300
+v_speed_damp = 1.0
+animations = ExtResource( 2 )
+camera_limits = Rect2( 0, 0, 0, 0 )
+telekinetic = false
+placeholders = {  }
+
+[node name="sprite" type="Sprite" parent="."]
+
+transform/pos = Vector2( 2.13163, -93.1682 )
+transform/scale = Vector2( 0.396505, 0.396505 )
+texture = ExtResource( 3 )
+
+[node name="lfoot" type="Sprite" parent="."]
+
+transform/pos = Vector2( -21.8281, 16.2621 )
+transform/scale = Vector2( 0.363382, 0.363382 )
+texture = ExtResource( 4 )
+
+[node name="rfoot" type="Sprite" parent="."]
+
+transform/pos = Vector2( 18.6362, 13.7621 )
+transform/scale = Vector2( 0.375287, 0.375287 )
+texture = ExtResource( 5 )
+
+[node name="animation" type="AnimationPlayer" parent="."]
+
+playback/process_mode = 1
+playback/default_blend_time = 0.0
+root/root = NodePath("..")
+anims/idle = SubResource( 1 )
+anims/walk = SubResource( 2 )
+playback/active = true
+playback/speed = 1.0
+blend_times = [  ]
+autoplay = ""
+
+

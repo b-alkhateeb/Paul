@@ -1,0 +1,8 @@
+:talk
+>	[sp1_bismark]
+	say paul bismark_map_1:"Is this map yours sir?" n paul
+	say bismark bismark_map_2:"Yes it is." normal mask
+	say paul bismark_map_3:"Too bad its wrong, these fictional countries are in Germany's place." n paul
+	say bismark bismark_map_4:"Its not wrong boy, its just the map of germany before unification." n mask
+	say bismark bismark_map_5:"Germany was many different states, until I united them into one country, Germany." n mask
+	say paul bismark_map_6:"Wow, this is pretty interesting!" n paul

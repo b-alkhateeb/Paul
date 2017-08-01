@@ -1,0 +1,22 @@
+:talk
+>	[!sp1_bach]
+	say bach bach_1:"Hello there kid." n mask
+	say paul bach_2:"Hi sir, Who are you sir?" n paul
+	say bach bach_3:"I am a famous german composer." n mask
+	say paul bach_4:"Can you tell me who you are, I have a report to write." n paul
+	say bach bach_5:"Look around, maybe you can guess." n mask
+	set_global sp1_bach true
+	stop
+>	[sp1_bach]
+	say bach bach_5:"Did you guess yet?" n mask
+	? default default
+		- "Wolfgang Amadeus Mozart"
+			say bach wrong:"Sorry, that is incorrect." n mask
+		- "Ludwig van Beethoven"
+			say bach wrong:"Sorry, that is incorrect." n mask
+		- "Wilhelm Richard Wagner"
+			say bach wrong:"Sorry, that is incorrect." n mask
+		- "Johann Sebastian Bach"
+			set_active gate_bach true
+			set_active mask_bach false
+			say bach correct:"That is Correct" n bach

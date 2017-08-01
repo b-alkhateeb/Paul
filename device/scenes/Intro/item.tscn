@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://globals/item.gd" type="Script" id=1]
+[ext_resource path="res://scenes/Intro/Untitled.jpeg" type="Texture" id=2]
+
+[node name="item" type="Node2D"]
+
+transform/pos = Vector2( 9.72107, -7.76648 )
+transform/scale = Vector2( 1.30378, 1.2427 )
+z/z = -7
+script/script = ExtResource( 1 )
+animations = null
+speed = 300
+scale_on_map = false
+light_on_map = false
+tooltip = ""
+action = ""
+events_path = ""
+global_id = ""
+use_combine = false
+inventory = false
+use_action_menu = true
+interact_angle = -1
+talk_animation = "talk"
+active = true
+placeholders = {  }
+use_custom_z = false
+
+[node name="area" type="Control" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = -7.0
+margin/top = 7.0
+margin/right = 1468.0
+margin/bottom = 873.0
+
+[node name="Sprite" type="Sprite" parent="."]
+
+transform/pos = Vector2( 728.935, 443.587 )
+transform/scale = Vector2( 0.536677, 0.559413 )
+texture = ExtResource( 2 )
+
+

@@ -1,0 +1,6 @@
+:talk
+>	[sp1_gauss]
+	say paul gauss_paper_1:"Is that paper yours sir?" n paul
+	say gauss gauss_paper_2:"Yes, this is one of my many mathematical papers. I have been called the greatest mathematician of all time." n mask
+	say gauss gauss_paper_3:"I have had contribution in every field of mathematics. I taught many students at the University of Göttingen who later became great mathematicians as well." n mask
+	set_active paper false

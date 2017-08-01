@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://globals/item.gd" type="Script" id=1]
+[ext_resource path="res://Particles2D.tscn" type="PackedScene" id=2]
+
+[node name="gate" type="Node2D"]
+
+script/script = ExtResource( 1 )
+animations = null
+speed = 300
+scale_on_map = false
+light_on_map = false
+tooltip = ""
+action = ""
+events_path = ""
+global_id = ""
+use_combine = false
+inventory = false
+use_action_menu = true
+interact_angle = -1
+talk_animation = "talk"
+active = true
+placeholders = {  }
+use_custom_z = false
+
+[node name="area" type="Control" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = -36.0
+margin/top = -31.0
+margin/right = 28.0
+margin/bottom = 40.0
+
+[node name="Particles2D" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( -5.61429, -7.67668 )
+config/time_scale = 0.3
+
+

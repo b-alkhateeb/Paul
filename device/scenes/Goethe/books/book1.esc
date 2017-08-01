@@ -1,0 +1,10 @@
+:talk
+>	[sp1_goethe]
+	say paul goethe_book1_1:"Here's a book, it's called 'Faust' " n paul
+	say goethe goethe_book1_2:"Oh yes, Faust, one of my most popular plays. One of the most popular German literature works actually." normal mask
+	say paul goethe_book1_3:"Well what is it about sir?" n paul
+	say goethe goethe_book1_4:"It is about Faust, a man who sells his soul to the devil to find satisfaction in his life." n mask
+	say paul goethe_book1_5:"That seems scary." n paul
+	say goethe goethe_book1_6:"Not at all, its more about Faust not being satisfied with his life even though he is very smart, you should read the book." n mask
+	say paul goethe_book1_7:"I will definitely read it." n paul
+	set_active book1_g false

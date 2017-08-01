@@ -1,0 +1,9 @@
+:talk
+>	[sp1_goethe]
+	say paul goethe_book3_1:"Here's a book, it's called 'The Theory of Color' " n paul
+	say goethe goethe_book3_2:"I had interest in science as well child. This book has some of my observations on light and color." normal mask
+	say paul goethe_book3_3:"So you're not just a Literature man sir?" n paul
+	say goethe goethe_book3_4:"I have always enjoyed science that comes from experience, like many of my comtemporaries like Issac Newton, but we had different visions." n mask
+	say paul goethe_book3_5:"How is that sir?" n paul
+	say goethe goethe_book3_5:"I believe science should have a more personal meaning, like looking into your garden for types of flowers, it shouldn't be abstract and confusing." n mask
+	set_active book3_g false

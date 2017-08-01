@@ -1,0 +1,8 @@
+:talk
+>	[sp1]
+	say paul nietzsche_book3_1:"This one is called 'Thus Spoke Zarathustra' " n paul
+	say nietzsche nietzsche_book3_2:"Probably my most popular works, this book is a philosophical novel." normal mask
+	say paul nietzsche_book3_3:"About what?" n paul
+	say nietzsche nietzsche_book3_4:"Zarathustra is the name of an old persian prophet, I used his name for a new prophet, one that preaches for the new world." n mask
+	say nietzsche nietzsche_book3_5:"The new world philosophy needs to be different than old religions, and not everyone can handle it, only an Overman could. This Overman must step away from the 'herd' and find his own purpose and values." n mask
+	set_active book1_n false

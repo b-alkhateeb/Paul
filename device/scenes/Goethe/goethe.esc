@@ -1,0 +1,20 @@
+:talk
+>	[!sp1_goethe]
+	say goethe goethe_1:"Hello child." n mask
+	say paul goethe_2:"Hello masked sir. Are you a famous German Personality?" n paul
+	say goethe goethe_3:"Well yes I am child, if you help me pick up my books you might guess who I am." n mask
+	set_global sp1_goethe true
+	stop
+>	[sp1_goethe]
+	say goethe goethe_4:"Did you guess yet?" n mask
+	? default default
+		- "Thomas Mann"
+			say goethe wrong:"Sorry, that is incorrect." n mask
+		- "Hermann Hesse"
+			say goethe wrong:"Sorry, that is incorrect." n mask
+		- "Johann Wolfgang von Goethe"
+			set_active gate_goethe true
+			set_active mask_goethe false
+			say goethe correct:"That is Correct" n goethe
+		- "Bertolt Brecht"
+			say goethe wrong:"Sorry, that is incorrect." n mask

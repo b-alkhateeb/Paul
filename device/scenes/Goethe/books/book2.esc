@@ -1,0 +1,7 @@
+:talk
+>	[sp1_goethe]
+	say paul goethe_book2_1:"Here's a book, it's called 'Roman Elegies' " n paul
+	say goethe goethe_book2_2:"I wrote this book of poetry after my trip to Rome. It was a wonderful experience." normal mask
+	say paul goethe_book2_3:"Because of Roman art sir, right?" n paul
+	say goethe goethe_book2_4:"That is one thing, but also because of the people I have met. Travling is great an experience that makes a person more mature. " n mask
+	set_active book2_g false

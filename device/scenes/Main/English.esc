@@ -1,0 +1,25 @@
+:talk
+anim trans fade_out
+set_active trans true
+wait 1
+
+change_scene res://scenes/Intro/scene_intro.scn
+
+anim trans fade_in
+wait 1
+set_active trans false
+
+say paul "Hello, my name is Paul." n paul
+say paul "I live in Seigen, its in Germany" n paul
+say paul "I have a homework, I must write about my favorite german historical personality" n paul
+say paul "I don't know who to write about, maybe I'll figure it out on the way home." n paul
+
+anim trans fade_out
+set_active trans true
+wait 1
+
+change_scene res://scenes/Bismark/scene_bismark.scn
+
+anim trans fade_in
+wait 1
+set_active trans false

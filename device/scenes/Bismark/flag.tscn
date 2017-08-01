@@ -1,0 +1,43 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://globals/item.gd" type="Script" id=1]
+[ext_resource path="res://scenes/Bismark/prussia.png" type="Texture" id=2]
+
+[node name="flag" type="Node2D"]
+
+script/script = ExtResource( 1 )
+animations = null
+speed = 300
+scale_on_map = false
+light_on_map = false
+tooltip = ""
+action = ""
+events_path = ""
+global_id = ""
+use_combine = false
+inventory = false
+use_action_menu = true
+interact_angle = -1
+talk_animation = "talk"
+active = true
+placeholders = {  }
+use_custom_z = false
+
+[node name="area" type="Control" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = -54.0
+margin/top = -22.0
+margin/right = 52.0
+margin/bottom = 34.0
+
+[node name="flag" type="Sprite" parent="."]
+
+transform/pos = Vector2( -0.998596, 2.52264 )
+transform/scale = Vector2( 0.0957057, 0.0957057 )
+texture = ExtResource( 2 )
+
+

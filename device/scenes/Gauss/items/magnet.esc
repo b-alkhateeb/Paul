@@ -1,0 +1,6 @@
+:talk
+>	[sp1_gauss]
+	say paul gauss_magnet_1:"Did you discover magnets sir?" n paul
+	say gauss gauss_magnet_2:"No, but I had an influential law in Electromagnetism - the field that studies electriciy and magnets together." n mask
+	say gauss gauss_magnet_3:"The law I made, which later became known by my name, is one of the four fundemental laws of electromagnetism, called the Maxwell Equations." n mask
+	set_active magnet false

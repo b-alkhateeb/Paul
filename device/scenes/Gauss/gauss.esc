@@ -1,0 +1,21 @@
+:talk
+>	[!sp1_gauss]
+	say gauss gauss_1:"Hey kid." n mask
+	say paul gauss_2:"Who are you sir?" n paul
+	say gauss gauss_3:"I am one of the greatest german scientists and mathematicians ever." n mask
+	say gauss gauss_4:"Look around and try to guess who I am." n mask
+	set_global sp1_gauss true
+	stop
+>	[sp1_gauss]
+	say gauss gauss_5:"Did you guess yet?" n mask
+	? default default
+		- "Albert Einstein"
+			say gauss wrong:"Sorry, that is incorrect." n mask
+		- "Bernhard Riemann"
+			say gauss wrong:"Sorry, that is incorrect." n mask
+		- "Johannes Kepler"
+			say gauss wrong:"Sorry, that is incorrect." n mask
+		- "Carl Friedrich Gauss"
+			set_active gate_gauss true
+			set_active mask_gauss false
+			say gauss correct:"That is Correct" n gauss

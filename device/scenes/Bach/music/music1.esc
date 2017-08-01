@@ -1,0 +1,6 @@
+:talk
+>	[sp1_bach]
+	anim music1 playsound
+	say paul bach_music_1:"That is some beautiful music." n paul
+	say bach bach_music_2:"This is one of my most popular compositions." n mask
+	say bach bach_music_3:"Its called 'Toccata and Fugue in D Minor' and is played on an Organ mainly" n mask

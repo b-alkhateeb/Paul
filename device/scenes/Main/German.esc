@@ -1,0 +1,13 @@
+:talk
+anim trans fade_out
+set_active trans true
+wait 1
+
+change_scene res://scenes/Outro/scene_outro.scn
+
+anim trans fade_in
+wait 1
+set_active trans false
+
+say paul "Wow, I've met alot of historical german characters on my way." n paul
+say paul "Now I have to choose which character to write my report about." n paul

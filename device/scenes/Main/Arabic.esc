@@ -1,0 +1,25 @@
+:talk
+anim trans fade_out
+set_active trans true
+wait 1
+
+change_scene res://scenes/Intro/scene_intro.scn
+
+anim trans fade_in
+wait 1
+set_active trans false
+
+say paul "مرحبا٫ اسمي بول." n paul
+say paul "اعيش في زيغن في المانيا." n paul
+say paul "طلب مني واجب مدرسي٫ ان اكتب عن شخصية المانية عظيمة." n paul
+say paul "لا اعرف عن من اكتب٫ ربما سيخطر لي احد في الطريق." n paul
+
+anim trans fade_out
+set_active trans true
+wait 1
+
+change_scene res://scenes/Bismark/scene_bismark.scn
+
+anim trans fade_in
+wait 1
+set_active trans false

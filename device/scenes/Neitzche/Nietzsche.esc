@@ -1,0 +1,20 @@
+:talk
+>	[!sp1_n]
+	say paul nietzsche_1:"Are you a famous german personality too sir?" n paul
+	say nietzsche nietzsche_2:"Well yes how did you guess. I am a german philosopher, lets see if you can guess who I am from my works over there." n mask
+	say paul nietzsche_3:"Okay then." n paul
+	set_global sp1_n true
+	stop
+>	[sp1_n]
+	say nietzsche nietzsche_4:"Did you guess yet?" n mask
+	? default default
+		- "Immanuel Kant"
+			say nietzsche wrong:"Sorry, that is incorrect." n mask
+		- "Friedrich Nietzsche"
+			set_active gate_n true
+			set_active mask_n false
+			say nietzsche correct:"That is Correct" n nietzsche
+		- "Arthur Schopenhauer"
+			say nietzsche wrong:"Sorry, that is incorrect." n mask
+		- "Georg Hegel"
+			say nietzsche wrong:"Sorry, that is incorrect." n mask

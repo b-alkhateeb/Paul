@@ -1,0 +1,6 @@
+:talk
+>	[sp1_bismark]
+	say paul bismark_flag_1:"Sir, what flag is this? I have never seen it although I'm good with flags." n paul
+	say bismark bismark_flag_2:"This is the flag of the state I was born in, Prussia." normal mask
+	say paul bismark_flag_3:"I have Never heard of it." n paul
+	say bismark bismark_flag_4:"It is part of germany now!" n mask

@@ -1,0 +1,9 @@
+:talk
+say paul outro_nietzsche:"I chose to write about you Mr. Nietzsche." n paul
+say nietzsche outro_2:"Great choice son, let's go write that report." n nietzsche
+
+anim trans fade_out
+set_active trans true
+wait 1
+
+change_scene res://scenes/credits.tscn

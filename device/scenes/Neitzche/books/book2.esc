@@ -1,0 +1,10 @@
+:talk
+>	[sp1]
+	say paul nietzsche_book2_1:"This one is called 'Beyond Good and Evil' " n paul
+	say nietzsche nietzsche_book2_2:"Oh yes, in this book, I discuss concepts of morality." normal mask
+	say paul nietzsche_book2_3:"Like what sir?" n paul
+	say nietzsche nietzsche_book2_4:"Things are not always clear. I think there is no absolute truth, everything is a point of view of someone." n mask
+	say nietzsche nietzsche_book2_5:"This makes ethics confusing. You can see an action as 'Good', but I see it as 'Evil'. Our inability to understand objective truths forces us to rethink our ethical views." n mask
+	say paul nietzsche_book2_6:"I did not understand a single word!" n paul
+	say nietzsche nietzsche_book2_7:"Well ya, this is philosophy, but its a really interesting topic." n mask
+	set_active book2_n false

@@ -1,0 +1,7 @@
+:talk
+>	[sp1]
+	say paul nietzsche_book1_1:"This one is called 'The Birth of Tragedy' " n paul
+	say nietzsche nietzsche_book1_2:"Oh yes, this book starts with discussing the tragic plays in ancient Greece." normal mask
+	say nietzsche nietzsche_book1_3:"Using tragedy in art is very important. Some people are more drawn to comedy, it makes them laugh, makes them happy." n mask
+	say nietzsche nietzsche_book1_4:"But tragedy makes you feel comfort. It reminds you that life is not all happy, bad things will always happen to good people, we must learn to accept them and deal with them. I believe greek tragedy had that purpose, and was great, its what I can truly call art." n mask
+	set_active book3_n false

@@ -1,0 +1,22 @@
+:talk
+>	[!sp1_bismark]
+	say bismark bismark_1:"Welcome my boy." n mask
+	say paul bismark_2:"Who are you sir?" n paul
+	say bismark bismark_3:"That is for you to find out." n mask
+	say paul bismark_4:"How am I supposed to do that?" n paul
+	say bismark bismark_5:"Well I've dropped clues everywhere." n mask
+	set_global sp1_bismark true
+	stop
+>	[sp1_bismark]
+	say bismark bismark_6:"Did you guess yet?" n mask
+	? default default
+		- "Otto Von Bismark."
+			set_active gate_bismark true
+			set_active mask_bismark false
+			say bismark correct:"That is Correct" n bismark
+		- "Friedrich Ebert"
+			say bismark wrong:"Sorry, that is incorrect." n mask
+		- "Anjela Mirkle"
+			say bismark wrong:"Sorry, that is incorrect." n mask
+		- "Josef shon"
+			say bismark wrong:"Sorry, that is incorrect." n mask

@@ -1,0 +1,9 @@
+:talk
+say paul outro_bach:"I chose to write about you Mr. Bach." n paul
+say bach outro_2:"Great choice son, let's go write that report." n bach
+
+anim trans fade_out
+set_active trans true
+wait 1
+
+change_scene res://scenes/credits.tscn
